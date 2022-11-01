@@ -1,0 +1,104 @@
+html {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#root {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page {
+  width: auto;
+}
+
+header {
+  text-align: center;
+  background-color:lightseagreen;
+  height: 60px;
+  padding: 20px;
+}
+
+.content-container {
+  display:grid;
+}
+
+main {
+  flex: 1;
+}
+main h2 {
+  padding-left: 20px;
+}
+.output {
+  flex: 1;
+}
+.song-table {
+  width: 100%;
+  background-color: #fff;
+}
+
+.song-row__item-heading {
+  text-align: left;
+}
+
+
+.formrow {
+  display: flex;
+}
+.inputField {
+  width: 15%;
+  height: 25px;
+  margin: 10px 10px 20px 20px;
+  text-align: center;
+  border-radius: 5%;
+ 
+}
+
+.selectInForm {
+  width: 15%;
+  height: 30px;
+  margin-left: 10px;
+  border-radius:5%;;
+}
+.addBtnForm {
+  height: 30px;
+  margin-left: 10px;
+  width:  15%;
+  color:  #fff;
+  background-color:lightskyblue;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5%;
+}
+
+
+.song-header {
+  background-color: #fff;
+}
+.song-row__item {
+  text-align: left;
+  line-height: 30px;;
+}
+table ,th, td {
+  border: 0px;
+  border-spacing: 0;
+}
+th {
+  padding: 10px 0 10px 0;
+
+}
+td, th {
+  padding-left: 10px;
+}
+tr:nth-child(even) {
+  background: #ccc;
+}
+.text-center {
+  text-align: center;
+}
+.btn-delete {
+  width:  80px;
+  color:  #fff;
+  background-color: lightcoral;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
